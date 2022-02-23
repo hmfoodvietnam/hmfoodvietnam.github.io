@@ -8,10 +8,10 @@
 <meta name="description" content="HMFOODVIETNAM">
 <meta name="author" content="HMFOODVIETNAM">
 <meta property="og:url"                content=https://hophat.tk/#page1" />
-<meta property="og:type"               content="article" />
-<meta property="og:title"              content="CV phatho" />
-<meta property="og:description"        content="CV template" />
-<meta property="og:image"              content="https://hophat.tk/images/avatar.png" />
+<meta property="og:type"               content="HMFOODVIETNAM" />
+<meta property="og:title"              content="HMFOODVIETNAM" />
+<meta property="og:description"        content="HMFOODVIETNAM" />
+<meta property="og:image"              content="https://scontent.fhan14-1.fna.fbcdn.net/v/t39.30808-6/274224130_123118323600770_3989373965379234187_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=Bv-7wLNOXxMAX96eHOG&_nc_ht=scontent.fhan14-1.fna&oh=00_AT_9XZ23W7v9jsdGkOskaELh-J5T32vuJridNjx8d_aA7Q&oe=621BBB1D" />
 <!-- Favicons -->
 <link rel="shortcut icon" href="favicon.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -517,6 +517,35 @@
 <!-- Scripts -->
 <script src="js/scripts.js"></script> 
 </body>
+<!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
 
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "100667995845803");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v13.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 <!-- Mirrored from paul-themes.com/html/jonny/home-fullpage.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 15 Sep 2018 15:02:53 GMT -->
 </html>
